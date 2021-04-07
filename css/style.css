@@ -21,7 +21,6 @@
 	border: 2px solid gray;
 }
 .bodytext{
-	text-align: justify;
 	padding:40px
 
 }
@@ -40,4 +39,31 @@
 	color: #fff;
 	font-weight: bold;
 	letter-spacing: 1px;
+}
+.bodyTitle{
+	text-align: center;
+	padding: 10px;
+	background: whitesmoke;
+}
+.regform{
+	width: 40%;
+	margin: 0 auto;
+
+}
+.regform .myinput{
+	width: 100%;
+	padding: 6px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 8px;
+	border-color: #4274CB;
+}
+.regBtn{
+	border: none;
+	background: #4274CB;
+	padding: 5px 10px;
+	color: #fff;
+	margin-top: 10px;
+	text-align: center;
 }

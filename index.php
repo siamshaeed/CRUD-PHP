@@ -8,7 +8,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CRUD | Data insert</title>
+	<title>CRUD Application | PHP MySQL</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>

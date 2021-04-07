@@ -54,7 +54,16 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 		<div class="row">
 			<div class="col-md-12">
 				<div class="myBody">
-					<p class="bodytext">Create page</p>
+					<h4 class="bodyTitle">Student Registration</h4>
+					<div class="regform">
+						<form  method="get">
+							<input class="myinput" type="text" name="name" placeholder="Enter Your Name">
+							<input class="myinput" type="email" name="email" placeholder="Enter Your Email">
+							<input class="myinput" type="phone" name="phone" placeholder="Enter Your phone">
+							<input class="myinput" type="text" name="depertment" placeholder="Enter Your Depertment">
+							<input class="regBtn" type="submit"  name="btn" value="Submit">
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
