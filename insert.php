@@ -17,7 +17,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 		<div class="row">
 			<div class="col-md-12">
 				<div class="headerSection">
-					<h2>PHP-CRUD APP</h2>
+					<h2>PHP MySQL CRUD Application</h2>
 				</div>
 			</div>
 		</div>
@@ -42,6 +42,16 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 						<a class="nav-link " href="#">Delete</a>
 					</li>
 				</ul>	
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="myBody">
+					<p class="bodytext">CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for database. We've already learned how to perform create (i.e. insert), read (i.e. select), update and delete operations in previous chapters. In this tutorial we'll create a simple PHP application to perform all these operations on a MySQL database table at one place.
+					Well, let's start by creating the table which we'll use in all of our example.</p>
+				</div>
 			</div>
 		</div>
 	</div>

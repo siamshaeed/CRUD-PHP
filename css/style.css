@@ -15,3 +15,13 @@
 	font-weight: bold;
 	font-size: 18px;
 }
+.myBody{
+	width: 100%;
+	min-height: 400px;
+	border: 2px solid gray;
+}
+.bodytext{
+	text-align: justify;
+	padding:40px
+
+}
