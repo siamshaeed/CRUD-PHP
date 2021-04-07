@@ -8,9 +8,11 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>CRUD | Data insert</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-	
+	<h2>Hellow banglasesh</h2>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
