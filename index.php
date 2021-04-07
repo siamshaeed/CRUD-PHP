@@ -30,7 +30,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			<div class="col-md-12">
 				<ul class="nav justify-content-center nav_background navText">
 					<li class="nav-item">
-						<a class="nav-link active" href="insert.php">Home</a>
+						<a class="nav-link active" href="index.php">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Create</a>
@@ -66,7 +66,9 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 		<div class="row">
 			<div class="col-md-12">
 				<footer class="footer">
-					
+					<div class="footerText">
+						<p>Powered By <a href="https://github.com/SiamShaeed">siamshaeed</a></p>
+					</div>
 				</footer>
 			</div>
 		</div>
