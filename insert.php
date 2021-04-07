@@ -27,16 +27,19 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			<div class="col-md-12">
 				<ul class="nav justify-content-center nav_background navText">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Active</a>
+						<a class="nav-link active" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#">Create</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#">Read</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
+						<a class="nav-link " href="#">Update</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Delete</a>
 					</li>
 				</ul>	
 			</div>
