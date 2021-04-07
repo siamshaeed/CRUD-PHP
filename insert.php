@@ -22,6 +22,27 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			</div>
 		</div>
 	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="nav justify-content-center nav_background navText">
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Active</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Disabled</a>
+					</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+
 
 	<script src="js/bootstrap.js"></script>
 </body>
