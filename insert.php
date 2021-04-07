@@ -13,6 +13,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<!-- header section start -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -22,12 +23,14 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			</div>
 		</div>
 	</div>
+	<!-- header section end -->
+	<!-- menu section start -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="nav justify-content-center nav_background navText">
 					<li class="nav-item">
-						<a class="nav-link active" href="#">Home</a>
+						<a class="nav-link active" href="insert.php">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Create</a>
@@ -45,6 +48,8 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			</div>
 		</div>
 	</div>
+	<!-- menu section end -->
+	<!--body section start -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -55,8 +60,18 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 			</div>
 		</div>
 	</div>
-
-
+	<!-- menu section end -->
+	<!-- footer section start -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<footer class="footer">
+					
+				</footer>
+			</div>
+		</div>
+	</div>
+	<!-- footer section end -->
 	<script src="js/bootstrap.js"></script>
 </body>
 </html>
