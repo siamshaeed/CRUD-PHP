@@ -1,0 +1,9 @@
+.headerSection{
+	height: 100px;
+	width: 100%;
+	background: gray;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	border-radius: 15px 15px 0px 0px;
+}

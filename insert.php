@@ -10,9 +10,19 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CRUD | Data insert</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h2>Hellow banglasesh</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="headerSection">
+					<h2>PHP-CRUD APP</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<script src="js/bootstrap.js"></script>
 </body>
 </html>
