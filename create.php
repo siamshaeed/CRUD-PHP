@@ -13,6 +13,11 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<?php 
+			if($_server['REQUESTS_METHOD']=='POST'){
+
+			}
+	 ?>
 	<!-- header section start -->
 	<div class="container">
 		<div class="row">
