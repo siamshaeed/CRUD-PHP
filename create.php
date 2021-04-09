@@ -15,7 +15,10 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 <body>
 	<?php 
 			if($_server['REQUESTS_METHOD']=='POST'){
-
+				$stuName =$_post['name'];
+				$stuEmail =$_post['email'];
+				$stuPhone =$_post['phone'];
+				$stuDepertment =$_post['depertment'];
 			}
 	 ?>
 	<!-- header section start -->
