@@ -19,6 +19,8 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 				$stuEmail =$_post['email'];
 				$stuPhone =$_post['phone'];
 				$stuDepertment =$_post['depertment'];
+
+				$sql = "INSERT INTO stuinfo(`id`, `name`, `email`, `phone`, `depertment`) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 			}
 	 ?>
 	<!-- header section start -->
