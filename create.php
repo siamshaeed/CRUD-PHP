@@ -23,6 +23,8 @@ $db = new mysqli("localhost", "root", '', "php-crud");
 		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
 		$db->query($sql);
+
+		
 	};
 	?>
 	<!-- header section start -->
