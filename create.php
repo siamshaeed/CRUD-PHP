@@ -14,19 +14,17 @@ $db = new mysqli("localhost", "root", '', "php-crud");
 </head>
 <body>
 	<?php 
+	if($_SERVER['REQUEST_METHOD']=='POST'){
+		$stuName = $_POST['mname'];
+		$stuEmail = $_POST['memail'];
+		$stuPhone = $_POST['mphone'];
+		$stuDepertment = $_POST['mdepertment'];
 
-			if($_SERVER['REQUEST_METHOD']=='POST'){
-				$stuName = $_POST['mname'];
-				$stuEmail = $_POST['memail'];
-				$stuPhone = $_POST['mphone'];
-				$stuDepertment = $_POST['mdepertment'];
+		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
-				$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
-
-				$db->query($sql);
-			
-			};
-	 ?>
+		$db->query($sql);
+	};
+	?>
 	<!-- header section start -->
 	<div class="container">
 		<div class="row">
@@ -75,7 +73,7 @@ $db = new mysqli("localhost", "root", '', "php-crud");
 							<input class="myinput" type="email" name="memail" placeholder="Enter Your Email">
 							<input class="myinput" type="phone" name="mphone" placeholder="Enter Your phone">
 							<input class="myinput" type="text" name="mdepertment" placeholder="Enter Your Depertment">
-							 <input type="submit" name="sbmt" value="SUBMIT">
+							<input type="submit" name="sbmt" value="SUBMIT">
 						</form>
 					</div>
 				</div>
