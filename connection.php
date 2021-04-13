@@ -5,9 +5,9 @@ $user = "root";
 $pass = "";
 $database = "crudsample";
 //Connection with mysql server
-$conn = mysqli_connect($host, $user, $pass, $database) or die ("Something wrong. Please connet with your Server Administrator");
+$conn = mysqli_connect($host, $user, $pass, $database) or die ("Something wrong. Please connet with your Server Administrator ");
 
-//chack connection
+//chack database connection
 if($conn){
 	echo "Connection Success";
 }else{
