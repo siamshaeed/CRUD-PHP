@@ -24,7 +24,10 @@ $db = new mysqli("localhost", "root", '', "php-crud");
 
 		$db->query($sql);
 
-		
+		//For success message
+		if ($db->affected_rows > 0) {
+			$msg = "Successfully Insert";
+		}
 	};
 	?>
 	<!-- header section start -->
@@ -76,6 +79,9 @@ $db = new mysqli("localhost", "root", '', "php-crud");
 							<input class="myinput" type="phone" name="mphone" placeholder="Enter Your phone">
 							<input class="myinput" type="text" name="mdepertment" placeholder="Enter Your Depertment">
 							<input type="submit" name="sbmt" value="SUBMIT">
+							<?php 
+								echo $msg;
+							 ?>
 						</form>
 					</div>
 				</div>
