@@ -1,4 +1,5 @@
 <!-- Database connection way : 1 -->
+
 <?php 
 $host = "localhost";
 $user = "root";
@@ -13,3 +14,5 @@ if ($conn) {
 	echo "Database connection loss";
 }
 ?>
+
+<!-- Database connection way : 2 -->
