@@ -20,9 +20,6 @@ server with default setting (user 'root' with no password) */
 		$stuEmail = $_POST['memail'];
 		$stuPhone = $_POST['mphone'];
 		$stuDepertment = $_POST['mdepertment'];
-		//connection page connect
-		require_once('connection.php');
-
 		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
 		$db->query($sql);
