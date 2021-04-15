@@ -1,6 +1,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
+
 // $db = new mysqli("localhost", "root", '', "php-crud");
 ?>
 <!DOCTYPE html>
@@ -19,6 +20,8 @@ server with default setting (user 'root' with no password) */
 		$stuEmail = $_POST['memail'];
 		$stuPhone = $_POST['mphone'];
 		$stuDepertment = $_POST['mdepertment'];
+		//connection page connect
+		require_once('connection.php');
 
 		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
@@ -26,7 +29,7 @@ server with default setting (user 'root' with no password) */
 
 		//For success message
 		if ($db->affected_rows > 0) {
-			$msg = "Successfully Insert";
+			echo "Data insert successfully";
 		}
 	};
 	?>
@@ -79,9 +82,6 @@ server with default setting (user 'root' with no password) */
 							<input class="myinput" type="phone" name="mphone" placeholder="Enter Your phone">
 							<input class="myinput" type="text" name="mdepertment" placeholder="Enter Your Depertment">
 							<input type="submit" name="sbmt" value="SUBMIT">
-							<?php 
-								echo $msg;
-							 ?>
 						</form>
 					</div>
 				</div>
