@@ -1,4 +1,4 @@
-<!-- Database connection way : 1 -->
+<!-- Database Connection way : 1 -->
 <?php 
 // $host = "localhost";
 // $user = "root";
@@ -14,4 +14,14 @@
 // }
 ?>
 
-<!-- Database connection way : 2 -->
+<!-- Database Connection way : 2 -->
+<?php 
+ini_set("display_error", 0);
+//Create constant
+define("HOST", "localhost");
+define("USER", "root");
+define("PASS", "");
+define("DB", "php-crud");
+//connection with mysql server. (Here mysqli() Function Object Oriented connection style)
+$db = new mysqli (HOST, USER, PASS, DB);
+?>
