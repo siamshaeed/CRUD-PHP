@@ -25,3 +25,5 @@ define("DB", "php-crud");
 //Connection with mysql server.(Here mysqli() Function object oriented connection style)
 $db = new mysqli (HOST, USER, PASS, DB);
 ?>
+
+<!-- Database Connection way : 3 -->
