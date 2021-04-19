@@ -16,7 +16,9 @@
 
 <!-- Database Connection way : 2 -->
 <?php 
+//Display error hide
 ini_set("display_error", 0);
+
 //Create Constant
 define("HOST", "localhost");
 define("USER", "root");
