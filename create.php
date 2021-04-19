@@ -1,7 +1,4 @@
 <?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-
 // $db = new mysqli("localhost", "root", '', "php-crud");
 require_once('connection.php');
 ?>

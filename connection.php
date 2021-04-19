@@ -29,3 +29,8 @@ $db = new mysqli (HOST, USER, PASS, DB);
 ?>
 
 <!-- Database Connection way : 3 -->
+<?php 
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+
+ ?>
