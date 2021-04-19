@@ -16,6 +16,7 @@
 
 <!-- Database Connection way : 2 -->
 <?php 
+/*
 //Display error hide
 ini_set("display_error", 0);
 
@@ -26,6 +27,7 @@ define("PASS", "");
 define("DB", "php-crud");
 //Connection with mysql server.(Here mysqli() Function object oriented connection style)
 $db = new mysqli (HOST, USER, PASS, DB);
+*/
 ?>
 
 <!-- Database Connection way : 3 -->
