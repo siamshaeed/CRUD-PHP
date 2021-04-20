@@ -18,15 +18,10 @@ require_once('connection.php');
 		$stuEmail = $_POST['memail'];
 		$stuPhone = $_POST['mphone'];
 		$stuDepertment = $_POST['mdepertment'];
-		
+
 		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
 		$db->query($sql);
-
-		//For success message
-		if ($db->affected_rows > 0) {
-			echo "Data insert successfully";
-		}
 	};
 	?>
 	<!-- header section start -->
