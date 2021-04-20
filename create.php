@@ -71,7 +71,13 @@ require_once('connection.php');
 							<input class="myinput" type="text" name="mname" placeholder="Enter Your Name">
 							<input class="myinput" type="email" name="memail" placeholder="Enter Your Email">
 							<input class="myinput" type="phone" name="mphone" placeholder="Enter Your phone">
-							<input class="myinput" type="text" name="mdepertment" placeholder="Enter Your Depertment">
+							<!-- <input class="myinput" type="text" name="mdepertment" placeholder="Enter Your Depertment">  -->
+							<select class="myinput selectbBorder" name="mdepertment">
+								<option>Select Your Depertment</option>
+								<option>CSE</option>
+								<option>EEE</option>
+								<option>CIVIL</option>
+							</select>
 							<input type="submit" name="sbmt" value="SUBMIT">
 						</form>
 					</div>
