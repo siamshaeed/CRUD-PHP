@@ -1,5 +1,5 @@
 <?php
-// $db = new mysqli("localhost", "root", '', "php-crud");
+//connection.php page include
 require_once('connection.php');
 ?>
 <!DOCTYPE html>
@@ -18,6 +18,7 @@ require_once('connection.php');
 		$stuEmail = $_POST['memail'];
 		$stuPhone = $_POST['mphone'];
 		$stuDepertment = $_POST['mdepertment'];
+		
 		$sql = "INSERT INTO stuinfo(id, name, email, phone, depertment) VALUES ('', '$stuName', '$stuEmail', '$stuPhone', '$stuDepertment')";
 
 		$db->query($sql);
@@ -83,7 +84,7 @@ require_once('connection.php');
 			</div>
 		</div>
 	</div>
-	<!-- menu section end -->
+	<!-- body section end -->
 	<!-- footer section start -->
 	<div class="container">
 		<div class="row">

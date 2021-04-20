@@ -15,6 +15,7 @@
 ?>
 
 
+
 <!-- Database Connection way : 2 -->
 <?php 
 /*
@@ -32,10 +33,11 @@ $db = new mysqli (HOST, USER, PASS, DB);
 ?>
 
 
+
 <!-- Database Connection way : 3 -->
 <?php 
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
 $db = new mysqli("localhost", "root", "", "php-crud");
- ?>
+?>
