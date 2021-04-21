@@ -1,4 +1,4 @@
-<!-- Database Connection way : 1 -->
+<!-- Database Connection way : 1 (Procedural) -->
 <?php 
 // $host = "localhost";
 // $user = "root";
@@ -16,7 +16,7 @@
 
 
 
-<!-- Database Connection way : 2 -->
+<!-- Database Connection way : 2 (Object Oriented) -->
 <?php 
 /*
 //Display error hide
