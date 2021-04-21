@@ -1,8 +1,3 @@
-<?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-$db_connect = new mysqli("localhost", "root", '', "php-crud");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +6,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 	<title>CRUD | Data insert</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 	<!-- header section start -->
@@ -54,7 +50,39 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 		<div class="row">
 			<div class="col-md-12">
 				<div class="myBody">
-					<p class="bodytext">read page</p>
+					<div class="readTable">
+						<h2 class="readTitle">Student List</h2>
+						<table class="table table-hover table-striped">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">First</th>
+									<th scope="col">Last</th>
+									<th scope="col">Handle</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -74,5 +102,6 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 	</div>
 	<!-- footer section end -->
 	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.js"></script>
 </body>
 </html>
