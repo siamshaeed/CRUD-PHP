@@ -52,33 +52,23 @@
 				<div class="myBody">
 					<div class="readTable">
 						<h2 class="readTitle">Student List</h2>
-						<table class="table table-hover table-striped">
+						<table class="table table-hover table-striped text-center">
 							<thead>
 								<tr>
-									<th scope="col">#</th>
-									<th scope="col">First</th>
-									<th scope="col">Last</th>
-									<th scope="col">Handle</th>
+									<th>Name</th>
+									<th>Email</th>
+									<th>Phone</th>
+									<th>Depertment</th>
+									<th>Action</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<th scope="row">1</th>
 									<td>Mark</td>
-									<td>Otto</td>
-									<td>@mdo</td>
-								</tr>
-								<tr>
-									<th scope="row">2</th>
-									<td>Jacob</td>
-									<td>Thornton</td>
-									<td>@fat</td>
-								</tr>
-								<tr>
-									<th scope="row">3</th>
-									<td>Larry</td>
-									<td>the Bird</td>
-									<td>@twitter</td>
+									<td>mark@gmail.com</td>
+									<td>01787</td>
+									<td>cse</td>
+									<td>Edit | Delete</td>
 								</tr>
 							</tbody>
 						</table>
