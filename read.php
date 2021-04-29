@@ -84,7 +84,7 @@
 			<div class="col-md-12">
 				<footer class="footer">
 					<div class="footerText">
-						<p>Powered By <a href="https://github.com/SiamShaeed">siamshaeed</a></p>
+						<p>Powered By <a href="https://github.com/siamshaeed">siamshaeed</a></p>
 					</div>
 				</footer>
 			</div>
