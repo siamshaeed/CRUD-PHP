@@ -29,7 +29,7 @@ require_once('connection.php');
 		<div class="row">
 			<div class="col-md-12">
 				<div class="headerSection">
-					<h3>PHP MySQL CRUD Application</h3>
+					<h2>PHP MySQL CRUD Application</h2>
 				</div>
 			</div>
 		</div>
