@@ -54,7 +54,7 @@ $db_connect = new mysqli("localhost", "root", '', "php-crud");
 		<div class="row">
 			<div class="col-md-12">
 				<div class="myBody">
-					<p class="bodytext test">This is Update Page</p>
+					<p class="bodytext test">Update Page</p>
 				</div>
 			</div>
 		</div>
